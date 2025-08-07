@@ -1,11 +1,11 @@
-package io.github.cape12.motd.plugin.command
+package io.github.cape12.MOTD.command
 
-import io.github.cape12.motd.plugin.MotdPlugin
+import io.github.cape12.MOTD.MOTD
 import org.bukkit.command.Command
 import org.bukkit.command.CommandExecutor
 import org.bukkit.command.CommandSender
 
-class MotdCommand(private val plugin: MotdPlugin) : CommandExecutor {
+class MOTDCommand(private val plugin: MOTD) : CommandExecutor {
 
     override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>): Boolean {
         if (args.isNotEmpty() && args[0].equals("reload", ignoreCase = true)) {

@@ -1,5 +1,5 @@
-name: MotdPlugin
-main: io.github.cape12.motd.plugin.MotdPlugin
+name: MOTD
+main: io.github.cape12.MOTD.MOTD
 version: 1.0.0
 api-version: 1.21
 commands:

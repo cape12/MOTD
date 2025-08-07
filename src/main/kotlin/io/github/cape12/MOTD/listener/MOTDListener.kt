@@ -1,13 +1,13 @@
-package io.github.cape12.motd.plugin.listener
+package io.github.cape12.MOTD.listener
 
-import io.github.cape12.motd.plugin.MotdPlugin
+import io.github.cape12.MOTD.MOTD
 import com.destroystokyo.paper.event.server.PaperServerListPingEvent
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.minimessage.MiniMessage
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
 
-class MotdListener(private val plugin: MotdPlugin) : Listener {
+class MOTDListener(private val plugin: MOTD) : Listener {
 
     private val miniMessage = MiniMessage.miniMessage()
 

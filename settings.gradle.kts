@@ -1,1 +1,1 @@
-rootProject.name = "MotdP"
+rootProject.name = "MOTD"

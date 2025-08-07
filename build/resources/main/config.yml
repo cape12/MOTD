@@ -3,15 +3,14 @@ use-motd: true
 
 # miniMessage 문법을 참고해주세요
 motd:
-  - "<gradient:#8000ff:#ffffff><bold>MOTD 플러그인 기본 텍스트</bold></gradient>"
+  - "<gradient:#8000ff:#ffffff><bold>⚡ MOTD 플러그인 기본 텍스트 ⚡</bold></gradient>"
   - "<white>서버에 오신 걸 환영합니다!</white>"
 
 # server-icon 기능을 사용할 지 여부
 use-server-icon: true
 
 # server-icon 폴더에 png 사진을 넣어주세요 (사진 사이즈 64x64 추천)
-# 만약 server-icon 기능을 사용했지만
 server-icon-path: "server-icon.png"
 
-# 서버 최대 플레이어
+# 서버 최대 플레이어 설정
 max-players: 20231018
